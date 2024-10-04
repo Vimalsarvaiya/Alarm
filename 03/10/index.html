@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="remendar.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Alarm Clock</h1>
+        <div class="current-time" id="currentTime">00:00:00</div>
+        
+        <div class="set-alarm">
+            <h2>Set Alarm</h2>
+            <input type="datetime-local" id="alarmTime">
+            <button onclick="setAlarm()">Set Alarm</button>
+        </div>
+
+        <div id="alarmMessage"></div>
+    </div>
+    
+    <script src="remendar.js"></script>
+</body>
+</html>
